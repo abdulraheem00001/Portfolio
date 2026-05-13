@@ -487,7 +487,27 @@ a {
 
 .carousel-control-prev,
 .carousel-control-next {
-  width: 15%;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  border-radius: 50px;
+  background-color: var(--accent);
+}
+
+.carousel-control-prev{
+  left: 2%;
+  top: 50%;
+}
+
+.carousel-control-next{
+  right: 2%;
+  top: 50%;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+  width: 50%;
+  height: 50%;
 }
 
 .project-content {
