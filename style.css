@@ -450,9 +450,9 @@ a {
 }
 
 .project-carousel,
-.project-image {
+.project-image,
+.project-video {
   height: 100%;
-  min-height: 340px;
 }
 
 .project-carousel .carousel-inner,
@@ -461,7 +461,6 @@ a {
 }
 
 .project-image {
-  object-fit: cover;
   background: linear-gradient(135deg, #edf4ef, #dee8df);
 }
 
